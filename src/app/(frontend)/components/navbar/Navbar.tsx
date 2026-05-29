@@ -21,7 +21,13 @@ export default function Navbar() {
         </ul>
         <Button color="blue" text="Demandez votre devis" link="" />
       </div>
-      <Image src={'/burger.svg'} width={40} height={40} alt="Icone de menu burger" />
+      <Image
+        className={styles.burger}
+        src={'/burger.svg'}
+        width={40}
+        height={40}
+        alt="Icone de menu burger"
+      />
     </nav>
   )
 }

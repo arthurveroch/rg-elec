@@ -3,6 +3,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
+import About from './components/about/About'
 
 export const dynamic = 'force-dynamic'
 
@@ -25,6 +26,7 @@ export default async function HomePage() {
     <main>
       <Hero heroData={data.Hero} />
       <Services servicesData={data.services} />
+      <About aboutData={data.histoire} />
     </main>
   )
 }
