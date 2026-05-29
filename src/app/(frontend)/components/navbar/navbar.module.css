@@ -1,0 +1,40 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 250;
+  padding: 16px 0;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  ul {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .navbar {
+    padding: 16px 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+  }
+}
