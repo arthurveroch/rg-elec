@@ -248,6 +248,7 @@ export const HomePage: GlobalConfig = {
             {
               name: 'source_avis',
               type: 'select',
+              required: true,
               options: ['Avis Google', 'Avis Facebook', 'Avis Pages Jaunes', 'Avis Truspilot'],
             },
           ],

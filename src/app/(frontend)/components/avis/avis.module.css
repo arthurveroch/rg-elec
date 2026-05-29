@@ -13,3 +13,10 @@
   align-items: center;
   gap: 64px;
 }
+
+.avisCards {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  flex-wrap: wrap;
+}

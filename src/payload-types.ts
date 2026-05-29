@@ -391,7 +391,7 @@ export interface HomePage {
     avis_clients: {
       avis: string;
       nom_client: string;
-      source_avis?: ('Avis Google' | 'Avis Facebook' | 'Avis Pages Jaunes' | 'Avis Truspilot') | null;
+      source_avis: 'Avis Google' | 'Avis Facebook' | 'Avis Pages Jaunes' | 'Avis Truspilot';
       id?: string | null;
     }[];
   };

@@ -1,0 +1,29 @@
+.avisCard {
+  max-width: 704px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 40px;
+  border: 1px solid #0082f8;
+  border-radius: 16px;
+  text-align: center;
+
+  p {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
+
+.infosAvis {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.bullet {
+  width: 3px;
+  height: 3px;
+  background: #212121;
+}
