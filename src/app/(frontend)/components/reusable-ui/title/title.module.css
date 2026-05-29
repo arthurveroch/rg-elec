@@ -20,3 +20,19 @@
   font-size: 18px;
   color: #212121;
 }
+
+@media screen and (max-width: 768px) {
+  .title {
+    h2 {
+      font-size: 48px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    h2 {
+      font-size: 30px;
+    }
+  }
+}
