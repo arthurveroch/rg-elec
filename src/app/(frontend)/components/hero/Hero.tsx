@@ -25,8 +25,8 @@ export default function Hero({ heroData }: Props) {
           <h1>{heroData.titre}</h1>
           <p>{heroData.sous_titre}</p>
           <div className={styles.buttonsContainer}>
-            <Button link="" text={heroData.premier_cta} color="blue" />
-            <Button link="" text={heroData.deuxieme_cta} color="transparent" />
+            <Button link="/#contact" text={heroData.premier_cta} color="blue" />
+            <Button link="/#services" text={heroData.deuxieme_cta} color="transparent" />
           </div>
         </div>
       </div>

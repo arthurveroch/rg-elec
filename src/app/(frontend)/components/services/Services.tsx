@@ -9,7 +9,7 @@ type Props = {
 
 export default function Services({ servicesData }: Props) {
   return (
-    <section className={styles.servicesContainer}>
+    <section id="services" className={styles.servicesContainer}>
       <div className={styles.services}>
         <Title
           center={false}

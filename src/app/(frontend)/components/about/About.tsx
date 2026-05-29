@@ -9,7 +9,7 @@ type Props = {
 
 export default function About({ aboutData }: Props) {
   return (
-    <section className={styles.aboutContainer}>
+    <section id="about" className={styles.aboutContainer}>
       <div className={styles.about}>
         <div className={styles.content}>
           <Title
