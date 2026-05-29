@@ -1,0 +1,17 @@
+.stepsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.steps {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+.stepsCard {
+  display: flex;
+  gap: 32px;
+}

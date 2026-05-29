@@ -5,6 +5,7 @@ import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
 import About from './components/about/About'
 import Avis from './components/avis/Avis'
+import Steps from './components/steps/Steps'
 
 export const dynamic = 'force-dynamic'
 
@@ -29,6 +30,7 @@ export default async function HomePage() {
       <Services servicesData={data.services} />
       <About aboutData={data.histoire} />
       <Avis avisData={data.avis} />
+      <Steps stepsData={data.Etapes} />
     </main>
   )
 }

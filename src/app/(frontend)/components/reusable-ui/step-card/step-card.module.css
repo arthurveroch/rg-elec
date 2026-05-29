@@ -1,0 +1,15 @@
+.stepCard {
+  height: 378px;
+  max-width: 336px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px;
+  border: 1px solid #0082f8;
+  border-radius: 16px;
+
+  h3 {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}
