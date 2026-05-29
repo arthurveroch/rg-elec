@@ -12,6 +12,7 @@ export default function Services({ servicesData }: Props) {
     <section className={styles.servicesContainer}>
       <div className={styles.services}>
         <Title
+          center={false}
           nomSection={servicesData.nom_section}
           title={servicesData.titre}
           subTitle={servicesData.sous_titre}

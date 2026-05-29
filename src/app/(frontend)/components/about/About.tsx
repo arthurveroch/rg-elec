@@ -12,7 +12,12 @@ export default function About({ aboutData }: Props) {
     <section className={styles.aboutContainer}>
       <div className={styles.about}>
         <div className={styles.content}>
-          <Title nomSection={aboutData.nom_section} title={aboutData.titre} subTitle={null} />
+          <Title
+            center={false}
+            nomSection={aboutData.nom_section}
+            title={aboutData.titre}
+            subTitle={null}
+          />
           <RichText data={aboutData.paragraphe} />
         </div>
         <div

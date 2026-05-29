@@ -1,0 +1,15 @@
+.avisContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 250px 20px;
+}
+
+.avis {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}

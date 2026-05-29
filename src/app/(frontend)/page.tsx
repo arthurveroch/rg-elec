@@ -4,6 +4,7 @@ import config from '@payload-config'
 import Hero from './components/hero/Hero'
 import Services from './components/services/Services'
 import About from './components/about/About'
+import Avis from './components/avis/Avis'
 
 export const dynamic = 'force-dynamic'
 
@@ -27,6 +28,7 @@ export default async function HomePage() {
       <Hero heroData={data.Hero} />
       <Services servicesData={data.services} />
       <About aboutData={data.histoire} />
+      <Avis avisData={data.avis} />
     </main>
   )
 }
