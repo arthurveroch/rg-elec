@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  height: 378px;
+  border-radius: 16px;
+  color: #fff;
+  overflow: hidden;
+}
+
+.shadowBlock {
+  padding: 32px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.7) 35%,
+    rgba(0, 0, 0, 0.35) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+@media screen and (max-width: 1440px) {
+  .card {
+    width: 100% !important;
+  }
+}

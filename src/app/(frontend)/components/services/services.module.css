@@ -1,0 +1,27 @@
+.servicesContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 250px 20px;
+}
+
+.services {
+  width: 100%;
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.servicesCards {
+  width: 100%;
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .servicesContainer {
+    padding: 125px 20px;
+  }
+}

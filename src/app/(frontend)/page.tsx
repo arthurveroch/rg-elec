@@ -2,6 +2,7 @@ import { unstable_cache } from 'next/cache'
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import Hero from './components/hero/Hero'
+import Services from './components/services/Services'
 
 export const dynamic = 'force-dynamic'
 
@@ -23,6 +24,7 @@ export default async function HomePage() {
   return (
     <main>
       <Hero heroData={data.Hero} />
+      <Services servicesData={data.services} />
     </main>
   )
 }
